@@ -53,9 +53,8 @@ export async function onLoadMoreBtnClick() {
 }
 
 function checkHitsMax(hits) {
-  if (hits.length < 33) {
+  if (hits.length < 40) {
     Notify.info(`We're sorry, but you've reached the end of search results.`);
-    console.log(hits.length);
     loadMoreBtn.hide();
   }
 }

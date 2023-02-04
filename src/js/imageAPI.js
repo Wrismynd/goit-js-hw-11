@@ -11,7 +11,7 @@ class ImageApi {
 
   async fetchImages() {
     const options = new URLSearchParams({
-      per_page: 33,
+      per_page: 40,
       page: this.page,
       key: API_KEY,
       q: this.searchQuery,
